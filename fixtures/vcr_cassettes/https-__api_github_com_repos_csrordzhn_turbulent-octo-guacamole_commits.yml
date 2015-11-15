@@ -1,0 +1,80 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.github.com/repos/csrordzhn/turbulent-octo-guacamole/commits
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Sun, 15 Nov 2015 08:51:19 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '60'
+      X-Ratelimit-Remaining:
+      - '42'
+      X-Ratelimit-Reset:
+      - '1447578279'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Last-Modified:
+      - Sun, 15 Nov 2015 07:09:06 GMT
+      Etag:
+      - W/"f73f76b45b1ff4c8c760d71a0be6b8dd"
+      Vary:
+      - Accept
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - e724c57ebb9961c772a91e2dd7421c8d
+      X-Github-Request-Id:
+      - 8C727BD0:94AF:1EDF907E:56484787
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"sha":"df78c17fc699ab504a19238a631e077cfec44e8e","commit":{"author":{"name":"Cesar
+        Ordonez","email":"c_man182@yahoo.com","date":"2015-11-15T07:09:06Z"},"committer":{"name":"Cesar
+        Ordonez","email":"c_man182@yahoo.com","date":"2015-11-15T07:09:06Z"},"message":"Initial
+        exploration of Github API, ccreated method to extract repo info into tsv file","tree":{"sha":"5ecb0610e81ab464fdea2631faf52a95da16b4e0","url":"https://api.github.com/repos/csrordzhn/turbulent-octo-guacamole/git/trees/5ecb0610e81ab464fdea2631faf52a95da16b4e0"},"url":"https://api.github.com/repos/csrordzhn/turbulent-octo-guacamole/git/commits/df78c17fc699ab504a19238a631e077cfec44e8e","comment_count":0},"url":"https://api.github.com/repos/csrordzhn/turbulent-octo-guacamole/commits/df78c17fc699ab504a19238a631e077cfec44e8e","html_url":"https://github.com/csrordzhn/turbulent-octo-guacamole/commit/df78c17fc699ab504a19238a631e077cfec44e8e","comments_url":"https://api.github.com/repos/csrordzhn/turbulent-octo-guacamole/commits/df78c17fc699ab504a19238a631e077cfec44e8e/comments","author":{"login":"csrordzhn","id":11346536,"avatar_url":"https://avatars.githubusercontent.com/u/11346536?v=3","gravatar_id":"","url":"https://api.github.com/users/csrordzhn","html_url":"https://github.com/csrordzhn","followers_url":"https://api.github.com/users/csrordzhn/followers","following_url":"https://api.github.com/users/csrordzhn/following{/other_user}","gists_url":"https://api.github.com/users/csrordzhn/gists{/gist_id}","starred_url":"https://api.github.com/users/csrordzhn/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/csrordzhn/subscriptions","organizations_url":"https://api.github.com/users/csrordzhn/orgs","repos_url":"https://api.github.com/users/csrordzhn/repos","events_url":"https://api.github.com/users/csrordzhn/events{/privacy}","received_events_url":"https://api.github.com/users/csrordzhn/received_events","type":"User","site_admin":false},"committer":{"login":"csrordzhn","id":11346536,"avatar_url":"https://avatars.githubusercontent.com/u/11346536?v=3","gravatar_id":"","url":"https://api.github.com/users/csrordzhn","html_url":"https://github.com/csrordzhn","followers_url":"https://api.github.com/users/csrordzhn/followers","following_url":"https://api.github.com/users/csrordzhn/following{/other_user}","gists_url":"https://api.github.com/users/csrordzhn/gists{/gist_id}","starred_url":"https://api.github.com/users/csrordzhn/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/csrordzhn/subscriptions","organizations_url":"https://api.github.com/users/csrordzhn/orgs","repos_url":"https://api.github.com/users/csrordzhn/repos","events_url":"https://api.github.com/users/csrordzhn/events{/privacy}","received_events_url":"https://api.github.com/users/csrordzhn/received_events","type":"User","site_admin":false},"parents":[{"sha":"0356b974c4576a23ab7fa7251415f8dabe41a02c","url":"https://api.github.com/repos/csrordzhn/turbulent-octo-guacamole/commits/0356b974c4576a23ab7fa7251415f8dabe41a02c","html_url":"https://github.com/csrordzhn/turbulent-octo-guacamole/commit/0356b974c4576a23ab7fa7251415f8dabe41a02c"}]},{"sha":"0356b974c4576a23ab7fa7251415f8dabe41a02c","commit":{"author":{"name":"Cesar
+        Ordonez","email":"c_man182@yahoo.com","date":"2015-11-15T04:53:37Z"},"committer":{"name":"Cesar
+        Ordonez","email":"c_man182@yahoo.com","date":"2015-11-15T04:53:37Z"},"message":"Added
+        readme.md","tree":{"sha":"1a07084f5bb3f96a6285fa1d03f52fbc3ad82cfb","url":"https://api.github.com/repos/csrordzhn/turbulent-octo-guacamole/git/trees/1a07084f5bb3f96a6285fa1d03f52fbc3ad82cfb"},"url":"https://api.github.com/repos/csrordzhn/turbulent-octo-guacamole/git/commits/0356b974c4576a23ab7fa7251415f8dabe41a02c","comment_count":0},"url":"https://api.github.com/repos/csrordzhn/turbulent-octo-guacamole/commits/0356b974c4576a23ab7fa7251415f8dabe41a02c","html_url":"https://github.com/csrordzhn/turbulent-octo-guacamole/commit/0356b974c4576a23ab7fa7251415f8dabe41a02c","comments_url":"https://api.github.com/repos/csrordzhn/turbulent-octo-guacamole/commits/0356b974c4576a23ab7fa7251415f8dabe41a02c/comments","author":{"login":"csrordzhn","id":11346536,"avatar_url":"https://avatars.githubusercontent.com/u/11346536?v=3","gravatar_id":"","url":"https://api.github.com/users/csrordzhn","html_url":"https://github.com/csrordzhn","followers_url":"https://api.github.com/users/csrordzhn/followers","following_url":"https://api.github.com/users/csrordzhn/following{/other_user}","gists_url":"https://api.github.com/users/csrordzhn/gists{/gist_id}","starred_url":"https://api.github.com/users/csrordzhn/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/csrordzhn/subscriptions","organizations_url":"https://api.github.com/users/csrordzhn/orgs","repos_url":"https://api.github.com/users/csrordzhn/repos","events_url":"https://api.github.com/users/csrordzhn/events{/privacy}","received_events_url":"https://api.github.com/users/csrordzhn/received_events","type":"User","site_admin":false},"committer":{"login":"csrordzhn","id":11346536,"avatar_url":"https://avatars.githubusercontent.com/u/11346536?v=3","gravatar_id":"","url":"https://api.github.com/users/csrordzhn","html_url":"https://github.com/csrordzhn","followers_url":"https://api.github.com/users/csrordzhn/followers","following_url":"https://api.github.com/users/csrordzhn/following{/other_user}","gists_url":"https://api.github.com/users/csrordzhn/gists{/gist_id}","starred_url":"https://api.github.com/users/csrordzhn/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/csrordzhn/subscriptions","organizations_url":"https://api.github.com/users/csrordzhn/orgs","repos_url":"https://api.github.com/users/csrordzhn/repos","events_url":"https://api.github.com/users/csrordzhn/events{/privacy}","received_events_url":"https://api.github.com/users/csrordzhn/received_events","type":"User","site_admin":false},"parents":[]}]'
+    http_version: 
+  recorded_at: Sun, 15 Nov 2015 08:51:20 GMT
+recorded_with: VCR 3.0.0

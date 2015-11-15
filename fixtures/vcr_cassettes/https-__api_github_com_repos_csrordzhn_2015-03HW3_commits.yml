@@ -1,0 +1,75 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.github.com/repos/csrordzhn/2015-03HW3/commits
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Sun, 15 Nov 2015 08:51:02 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '60'
+      X-Ratelimit-Remaining:
+      - '53'
+      X-Ratelimit-Reset:
+      - '1447578279'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Last-Modified:
+      - Thu, 02 Apr 2015 13:41:26 GMT
+      Etag:
+      - W/"b1236e99526750ce4dfdc6c66ae24a5d"
+      Vary:
+      - Accept
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - d594a23ec74671eba905bf91ef329026
+      X-Github-Request-Id:
+      - 8C727BD0:94AE:1E33196D:56484776
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"sha":"2ac6d3b019b33ea9fd14fa7346d25ea22896b8c4","commit":{"author":{"name":"Cesar","email":"c_man182@yahoo.com","date":"2015-04-02T13:41:26Z"},"committer":{"name":"Cesar","email":"c_man182@yahoo.com","date":"2015-04-02T13:41:26Z"},"message":"Initial
+        commit","tree":{"sha":"e34d5cb123c335d3f7c94bd09cca5fc9812e94fd","url":"https://api.github.com/repos/csrordzhn/2015-03HW3/git/trees/e34d5cb123c335d3f7c94bd09cca5fc9812e94fd"},"url":"https://api.github.com/repos/csrordzhn/2015-03HW3/git/commits/2ac6d3b019b33ea9fd14fa7346d25ea22896b8c4","comment_count":0},"url":"https://api.github.com/repos/csrordzhn/2015-03HW3/commits/2ac6d3b019b33ea9fd14fa7346d25ea22896b8c4","html_url":"https://github.com/csrordzhn/2015-03HW3/commit/2ac6d3b019b33ea9fd14fa7346d25ea22896b8c4","comments_url":"https://api.github.com/repos/csrordzhn/2015-03HW3/commits/2ac6d3b019b33ea9fd14fa7346d25ea22896b8c4/comments","author":{"login":"csrordzhn","id":11346536,"avatar_url":"https://avatars.githubusercontent.com/u/11346536?v=3","gravatar_id":"","url":"https://api.github.com/users/csrordzhn","html_url":"https://github.com/csrordzhn","followers_url":"https://api.github.com/users/csrordzhn/followers","following_url":"https://api.github.com/users/csrordzhn/following{/other_user}","gists_url":"https://api.github.com/users/csrordzhn/gists{/gist_id}","starred_url":"https://api.github.com/users/csrordzhn/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/csrordzhn/subscriptions","organizations_url":"https://api.github.com/users/csrordzhn/orgs","repos_url":"https://api.github.com/users/csrordzhn/repos","events_url":"https://api.github.com/users/csrordzhn/events{/privacy}","received_events_url":"https://api.github.com/users/csrordzhn/received_events","type":"User","site_admin":false},"committer":{"login":"csrordzhn","id":11346536,"avatar_url":"https://avatars.githubusercontent.com/u/11346536?v=3","gravatar_id":"","url":"https://api.github.com/users/csrordzhn","html_url":"https://github.com/csrordzhn","followers_url":"https://api.github.com/users/csrordzhn/followers","following_url":"https://api.github.com/users/csrordzhn/following{/other_user}","gists_url":"https://api.github.com/users/csrordzhn/gists{/gist_id}","starred_url":"https://api.github.com/users/csrordzhn/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/csrordzhn/subscriptions","organizations_url":"https://api.github.com/users/csrordzhn/orgs","repos_url":"https://api.github.com/users/csrordzhn/repos","events_url":"https://api.github.com/users/csrordzhn/events{/privacy}","received_events_url":"https://api.github.com/users/csrordzhn/received_events","type":"User","site_admin":false},"parents":[]}]'
+    http_version: 
+  recorded_at: Sun, 15 Nov 2015 08:51:02 GMT
+recorded_with: VCR 3.0.0

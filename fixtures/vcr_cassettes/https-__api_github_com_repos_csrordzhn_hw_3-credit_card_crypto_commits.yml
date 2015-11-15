@@ -1,0 +1,87 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.github.com/repos/csrordzhn/hw_3-credit_card_crypto/commits
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Sun, 15 Nov 2015 08:51:16 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '60'
+      X-Ratelimit-Remaining:
+      - '45'
+      X-Ratelimit-Reset:
+      - '1447578279'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Last-Modified:
+      - Sun, 22 Mar 2015 10:19:48 GMT
+      Etag:
+      - W/"f6f408bf362253bedf4e9e904f57fd3c"
+      Vary:
+      - Accept
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - bd82876e9bf04990f289ba22f246ee9b
+      X-Github-Request-Id:
+      - 8C727BD0:94AD:18A3287B:56484783
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"sha":"8195c7d72f2e93b153e3c818d1af885fcd2ca58a","commit":{"author":{"name":"Soumya
+        Ray","email":"soumya.ray@gmail.com","date":"2015-03-22T10:19:48Z"},"committer":{"name":"Soumya
+        Ray","email":"soumya.ray@gmail.com","date":"2015-03-22T10:19:48Z"},"message":"Merge
+        pull request #1 from ChengYuHsu/master\n\nFix typos and formatting problems
+        in `README.md`.","tree":{"sha":"d2812025b53bcab7f3029a73120f5453cd4426c7","url":"https://api.github.com/repos/csrordzhn/hw_3-credit_card_crypto/git/trees/d2812025b53bcab7f3029a73120f5453cd4426c7"},"url":"https://api.github.com/repos/csrordzhn/hw_3-credit_card_crypto/git/commits/8195c7d72f2e93b153e3c818d1af885fcd2ca58a","comment_count":0},"url":"https://api.github.com/repos/csrordzhn/hw_3-credit_card_crypto/commits/8195c7d72f2e93b153e3c818d1af885fcd2ca58a","html_url":"https://github.com/csrordzhn/hw_3-credit_card_crypto/commit/8195c7d72f2e93b153e3c818d1af885fcd2ca58a","comments_url":"https://api.github.com/repos/csrordzhn/hw_3-credit_card_crypto/commits/8195c7d72f2e93b153e3c818d1af885fcd2ca58a/comments","author":{"login":"soumyaray","id":1926704,"avatar_url":"https://avatars.githubusercontent.com/u/1926704?v=3","gravatar_id":"","url":"https://api.github.com/users/soumyaray","html_url":"https://github.com/soumyaray","followers_url":"https://api.github.com/users/soumyaray/followers","following_url":"https://api.github.com/users/soumyaray/following{/other_user}","gists_url":"https://api.github.com/users/soumyaray/gists{/gist_id}","starred_url":"https://api.github.com/users/soumyaray/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/soumyaray/subscriptions","organizations_url":"https://api.github.com/users/soumyaray/orgs","repos_url":"https://api.github.com/users/soumyaray/repos","events_url":"https://api.github.com/users/soumyaray/events{/privacy}","received_events_url":"https://api.github.com/users/soumyaray/received_events","type":"User","site_admin":false},"committer":{"login":"soumyaray","id":1926704,"avatar_url":"https://avatars.githubusercontent.com/u/1926704?v=3","gravatar_id":"","url":"https://api.github.com/users/soumyaray","html_url":"https://github.com/soumyaray","followers_url":"https://api.github.com/users/soumyaray/followers","following_url":"https://api.github.com/users/soumyaray/following{/other_user}","gists_url":"https://api.github.com/users/soumyaray/gists{/gist_id}","starred_url":"https://api.github.com/users/soumyaray/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/soumyaray/subscriptions","organizations_url":"https://api.github.com/users/soumyaray/orgs","repos_url":"https://api.github.com/users/soumyaray/repos","events_url":"https://api.github.com/users/soumyaray/events{/privacy}","received_events_url":"https://api.github.com/users/soumyaray/received_events","type":"User","site_admin":false},"parents":[{"sha":"d9e24a48ed08e4a66bb351436e9167994e2ad783","url":"https://api.github.com/repos/csrordzhn/hw_3-credit_card_crypto/commits/d9e24a48ed08e4a66bb351436e9167994e2ad783","html_url":"https://github.com/csrordzhn/hw_3-credit_card_crypto/commit/d9e24a48ed08e4a66bb351436e9167994e2ad783"},{"sha":"b05e2e3b8ec4ab9fd226353b4e7c64553a865f7d","url":"https://api.github.com/repos/csrordzhn/hw_3-credit_card_crypto/commits/b05e2e3b8ec4ab9fd226353b4e7c64553a865f7d","html_url":"https://github.com/csrordzhn/hw_3-credit_card_crypto/commit/b05e2e3b8ec4ab9fd226353b4e7c64553a865f7d"}]},{"sha":"b05e2e3b8ec4ab9fd226353b4e7c64553a865f7d","commit":{"author":{"name":"Cheng-Yu
+        Hsu","email":"crazyming411@gmail.com","date":"2015-03-22T09:06:31Z"},"committer":{"name":"Cheng-Yu
+        Hsu","email":"crazyming411@gmail.com","date":"2015-03-22T09:06:31Z"},"message":"Fix
+        typos and formatting problems in `README.md`.","tree":{"sha":"d2812025b53bcab7f3029a73120f5453cd4426c7","url":"https://api.github.com/repos/csrordzhn/hw_3-credit_card_crypto/git/trees/d2812025b53bcab7f3029a73120f5453cd4426c7"},"url":"https://api.github.com/repos/csrordzhn/hw_3-credit_card_crypto/git/commits/b05e2e3b8ec4ab9fd226353b4e7c64553a865f7d","comment_count":0},"url":"https://api.github.com/repos/csrordzhn/hw_3-credit_card_crypto/commits/b05e2e3b8ec4ab9fd226353b4e7c64553a865f7d","html_url":"https://github.com/csrordzhn/hw_3-credit_card_crypto/commit/b05e2e3b8ec4ab9fd226353b4e7c64553a865f7d","comments_url":"https://api.github.com/repos/csrordzhn/hw_3-credit_card_crypto/commits/b05e2e3b8ec4ab9fd226353b4e7c64553a865f7d/comments","author":{"login":"cyhsutw","id":1046917,"avatar_url":"https://avatars.githubusercontent.com/u/1046917?v=3","gravatar_id":"","url":"https://api.github.com/users/cyhsutw","html_url":"https://github.com/cyhsutw","followers_url":"https://api.github.com/users/cyhsutw/followers","following_url":"https://api.github.com/users/cyhsutw/following{/other_user}","gists_url":"https://api.github.com/users/cyhsutw/gists{/gist_id}","starred_url":"https://api.github.com/users/cyhsutw/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cyhsutw/subscriptions","organizations_url":"https://api.github.com/users/cyhsutw/orgs","repos_url":"https://api.github.com/users/cyhsutw/repos","events_url":"https://api.github.com/users/cyhsutw/events{/privacy}","received_events_url":"https://api.github.com/users/cyhsutw/received_events","type":"User","site_admin":false},"committer":{"login":"cyhsutw","id":1046917,"avatar_url":"https://avatars.githubusercontent.com/u/1046917?v=3","gravatar_id":"","url":"https://api.github.com/users/cyhsutw","html_url":"https://github.com/cyhsutw","followers_url":"https://api.github.com/users/cyhsutw/followers","following_url":"https://api.github.com/users/cyhsutw/following{/other_user}","gists_url":"https://api.github.com/users/cyhsutw/gists{/gist_id}","starred_url":"https://api.github.com/users/cyhsutw/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cyhsutw/subscriptions","organizations_url":"https://api.github.com/users/cyhsutw/orgs","repos_url":"https://api.github.com/users/cyhsutw/repos","events_url":"https://api.github.com/users/cyhsutw/events{/privacy}","received_events_url":"https://api.github.com/users/cyhsutw/received_events","type":"User","site_admin":false},"parents":[{"sha":"d9e24a48ed08e4a66bb351436e9167994e2ad783","url":"https://api.github.com/repos/csrordzhn/hw_3-credit_card_crypto/commits/d9e24a48ed08e4a66bb351436e9167994e2ad783","html_url":"https://github.com/csrordzhn/hw_3-credit_card_crypto/commit/d9e24a48ed08e4a66bb351436e9167994e2ad783"}]},{"sha":"d9e24a48ed08e4a66bb351436e9167994e2ad783","commit":{"author":{"name":"Soumya
+        Ray","email":"soumya.ray@gmail.com","date":"2015-03-22T06:38:00Z"},"committer":{"name":"Soumya
+        Ray","email":"soumya.ray@gmail.com","date":"2015-03-22T06:38:00Z"},"message":"Added
+        README file","tree":{"sha":"0c4e001ddfcb522121b7c9560657f20fee6aedd7","url":"https://api.github.com/repos/csrordzhn/hw_3-credit_card_crypto/git/trees/0c4e001ddfcb522121b7c9560657f20fee6aedd7"},"url":"https://api.github.com/repos/csrordzhn/hw_3-credit_card_crypto/git/commits/d9e24a48ed08e4a66bb351436e9167994e2ad783","comment_count":0},"url":"https://api.github.com/repos/csrordzhn/hw_3-credit_card_crypto/commits/d9e24a48ed08e4a66bb351436e9167994e2ad783","html_url":"https://github.com/csrordzhn/hw_3-credit_card_crypto/commit/d9e24a48ed08e4a66bb351436e9167994e2ad783","comments_url":"https://api.github.com/repos/csrordzhn/hw_3-credit_card_crypto/commits/d9e24a48ed08e4a66bb351436e9167994e2ad783/comments","author":{"login":"soumyaray","id":1926704,"avatar_url":"https://avatars.githubusercontent.com/u/1926704?v=3","gravatar_id":"","url":"https://api.github.com/users/soumyaray","html_url":"https://github.com/soumyaray","followers_url":"https://api.github.com/users/soumyaray/followers","following_url":"https://api.github.com/users/soumyaray/following{/other_user}","gists_url":"https://api.github.com/users/soumyaray/gists{/gist_id}","starred_url":"https://api.github.com/users/soumyaray/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/soumyaray/subscriptions","organizations_url":"https://api.github.com/users/soumyaray/orgs","repos_url":"https://api.github.com/users/soumyaray/repos","events_url":"https://api.github.com/users/soumyaray/events{/privacy}","received_events_url":"https://api.github.com/users/soumyaray/received_events","type":"User","site_admin":false},"committer":{"login":"soumyaray","id":1926704,"avatar_url":"https://avatars.githubusercontent.com/u/1926704?v=3","gravatar_id":"","url":"https://api.github.com/users/soumyaray","html_url":"https://github.com/soumyaray","followers_url":"https://api.github.com/users/soumyaray/followers","following_url":"https://api.github.com/users/soumyaray/following{/other_user}","gists_url":"https://api.github.com/users/soumyaray/gists{/gist_id}","starred_url":"https://api.github.com/users/soumyaray/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/soumyaray/subscriptions","organizations_url":"https://api.github.com/users/soumyaray/orgs","repos_url":"https://api.github.com/users/soumyaray/repos","events_url":"https://api.github.com/users/soumyaray/events{/privacy}","received_events_url":"https://api.github.com/users/soumyaray/received_events","type":"User","site_admin":false},"parents":[{"sha":"463219ecc53a986ce940e4e68407c6fecc9419b8","url":"https://api.github.com/repos/csrordzhn/hw_3-credit_card_crypto/commits/463219ecc53a986ce940e4e68407c6fecc9419b8","html_url":"https://github.com/csrordzhn/hw_3-credit_card_crypto/commit/463219ecc53a986ce940e4e68407c6fecc9419b8"}]},{"sha":"463219ecc53a986ce940e4e68407c6fecc9419b8","commit":{"author":{"name":"Soumya
+        Ray","email":"soumya.ray@gmail.com","date":"2015-03-22T05:46:26Z"},"committer":{"name":"Soumya
+        Ray","email":"soumya.ray@gmail.com","date":"2015-03-22T05:46:26Z"},"message":"First
+        draft of HW problem","tree":{"sha":"cd2af65cdf252ad7e302c5df6f170d7e28f27650","url":"https://api.github.com/repos/csrordzhn/hw_3-credit_card_crypto/git/trees/cd2af65cdf252ad7e302c5df6f170d7e28f27650"},"url":"https://api.github.com/repos/csrordzhn/hw_3-credit_card_crypto/git/commits/463219ecc53a986ce940e4e68407c6fecc9419b8","comment_count":0},"url":"https://api.github.com/repos/csrordzhn/hw_3-credit_card_crypto/commits/463219ecc53a986ce940e4e68407c6fecc9419b8","html_url":"https://github.com/csrordzhn/hw_3-credit_card_crypto/commit/463219ecc53a986ce940e4e68407c6fecc9419b8","comments_url":"https://api.github.com/repos/csrordzhn/hw_3-credit_card_crypto/commits/463219ecc53a986ce940e4e68407c6fecc9419b8/comments","author":{"login":"soumyaray","id":1926704,"avatar_url":"https://avatars.githubusercontent.com/u/1926704?v=3","gravatar_id":"","url":"https://api.github.com/users/soumyaray","html_url":"https://github.com/soumyaray","followers_url":"https://api.github.com/users/soumyaray/followers","following_url":"https://api.github.com/users/soumyaray/following{/other_user}","gists_url":"https://api.github.com/users/soumyaray/gists{/gist_id}","starred_url":"https://api.github.com/users/soumyaray/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/soumyaray/subscriptions","organizations_url":"https://api.github.com/users/soumyaray/orgs","repos_url":"https://api.github.com/users/soumyaray/repos","events_url":"https://api.github.com/users/soumyaray/events{/privacy}","received_events_url":"https://api.github.com/users/soumyaray/received_events","type":"User","site_admin":false},"committer":{"login":"soumyaray","id":1926704,"avatar_url":"https://avatars.githubusercontent.com/u/1926704?v=3","gravatar_id":"","url":"https://api.github.com/users/soumyaray","html_url":"https://github.com/soumyaray","followers_url":"https://api.github.com/users/soumyaray/followers","following_url":"https://api.github.com/users/soumyaray/following{/other_user}","gists_url":"https://api.github.com/users/soumyaray/gists{/gist_id}","starred_url":"https://api.github.com/users/soumyaray/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/soumyaray/subscriptions","organizations_url":"https://api.github.com/users/soumyaray/orgs","repos_url":"https://api.github.com/users/soumyaray/repos","events_url":"https://api.github.com/users/soumyaray/events{/privacy}","received_events_url":"https://api.github.com/users/soumyaray/received_events","type":"User","site_admin":false},"parents":[]}]'
+    http_version: 
+  recorded_at: Sun, 15 Nov 2015 08:51:16 GMT
+recorded_with: VCR 3.0.0

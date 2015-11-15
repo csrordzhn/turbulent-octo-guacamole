@@ -1,0 +1,100 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.github.com/users/csrordzhn
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Sun, 15 Nov 2015 08:23:40 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '60'
+      X-Ratelimit-Remaining:
+      - '57'
+      X-Ratelimit-Reset:
+      - '1447578279'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Last-Modified:
+      - Sun, 15 Nov 2015 06:10:25 GMT
+      Etag:
+      - W/"d845fd0ce8feaa3d93dd0a34b30b49f2"
+      Vary:
+      - Accept
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - bd82876e9bf04990f289ba22f246ee9b
+      X-Github-Request-Id:
+      - 8C727BD0:146C8:1E82176F:5648410B
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJsb2dpbiI6ImNzcm9yZHpobiIsImlkIjoxMTM0NjUzNiwiYXZhdGFyX3Vy
+        bCI6Imh0dHBzOi8vYXZhdGFycy5naXRodWJ1c2VyY29udGVudC5jb20vdS8x
+        MTM0NjUzNj92PTMiLCJncmF2YXRhcl9pZCI6IiIsInVybCI6Imh0dHBzOi8v
+        YXBpLmdpdGh1Yi5jb20vdXNlcnMvY3Nyb3JkemhuIiwiaHRtbF91cmwiOiJo
+        dHRwczovL2dpdGh1Yi5jb20vY3Nyb3JkemhuIiwiZm9sbG93ZXJzX3VybCI6
+        Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vdXNlcnMvY3Nyb3JkemhuL2ZvbGxv
+        d2VycyIsImZvbGxvd2luZ191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29t
+        L3VzZXJzL2Nzcm9yZHpobi9mb2xsb3dpbmd7L290aGVyX3VzZXJ9IiwiZ2lz
+        dHNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS91c2Vycy9jc3JvcmR6
+        aG4vZ2lzdHN7L2dpc3RfaWR9Iiwic3RhcnJlZF91cmwiOiJodHRwczovL2Fw
+        aS5naXRodWIuY29tL3VzZXJzL2Nzcm9yZHpobi9zdGFycmVkey9vd25lcn17
+        L3JlcG99Iiwic3Vic2NyaXB0aW9uc191cmwiOiJodHRwczovL2FwaS5naXRo
+        dWIuY29tL3VzZXJzL2Nzcm9yZHpobi9zdWJzY3JpcHRpb25zIiwib3JnYW5p
+        emF0aW9uc191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3VzZXJzL2Nz
+        cm9yZHpobi9vcmdzIiwicmVwb3NfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHVi
+        LmNvbS91c2Vycy9jc3JvcmR6aG4vcmVwb3MiLCJldmVudHNfdXJsIjoiaHR0
+        cHM6Ly9hcGkuZ2l0aHViLmNvbS91c2Vycy9jc3JvcmR6aG4vZXZlbnRzey9w
+        cml2YWN5fSIsInJlY2VpdmVkX2V2ZW50c191cmwiOiJodHRwczovL2FwaS5n
+        aXRodWIuY29tL3VzZXJzL2Nzcm9yZHpobi9yZWNlaXZlZF9ldmVudHMiLCJ0
+        eXBlIjoiVXNlciIsInNpdGVfYWRtaW4iOmZhbHNlLCJuYW1lIjoiQ2VzYXIg
+        Ui4gT3Jkb8OxZXoiLCJjb21wYW55IjpudWxsLCJibG9nIjpudWxsLCJsb2Nh
+        dGlvbiI6bnVsbCwiZW1haWwiOm51bGwsImhpcmVhYmxlIjpudWxsLCJiaW8i
+        Om51bGwsInB1YmxpY19yZXBvcyI6MTMsInB1YmxpY19naXN0cyI6MywiZm9s
+        bG93ZXJzIjowLCJmb2xsb3dpbmciOjAsImNyZWF0ZWRfYXQiOiIyMDE1LTAz
+        LTA2VDA3OjU1OjQzWiIsInVwZGF0ZWRfYXQiOiIyMDE1LTExLTE1VDA2OjEw
+        OjI1WiJ9
+    http_version: 
+  recorded_at: Sun, 15 Nov 2015 08:23:40 GMT
+recorded_with: VCR 3.0.0
